@@ -1,7 +1,12 @@
-class Api::V1::PizzasController < ApplicationController
+# frozen_string_literal: true
 
-  # GET /api/v1/pizzas
-  def index
-    render json: Pizza.all
+module Api
+  module V1
+    class PizzasController < ApplicationController
+      # GET /api/v1/pizzas
+      def index
+        render json: Pizza.all
+      end
+    end
   end
 end

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -10,32 +12,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_25_153204) do
-
-  create_table "avatars", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+ActiveRecord::Schema.define(version: 20_210_925_153_204) do
+  create_table 'avatars', force: :cascade do |t|
+    t.string 'name'
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
   end
 
-  create_table "cart_items", force: :cascade do |t|
-    t.integer "pizza_id"
-    t.integer "quantity", default: 1, null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+  create_table 'cart_items', force: :cascade do |t|
+    t.integer 'pizza_id'
+    t.integer 'quantity', default: 1, null: false
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
   end
 
-  create_table "pizzas", force: :cascade do |t|
-    t.string "name"
-    t.integer "price"
-    t.text "description"
-    t.string "image"
-    t.text "categories", default: "--- []\n"
-    t.boolean "best_seller"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["categories"], name: "index_pizzas_on_categories"
+  create_table 'pizzas', force: :cascade do |t|
+    t.string 'name'
+    t.integer 'price'
+    t.text 'description'
+    t.string 'image'
+    t.text 'categories', default: "--- []\n"
+    t.boolean 'best_seller'
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
+    t.index ['categories'], name: 'index_pizzas_on_categories'
   end
 
-  add_foreign_key "cart_items", "pizzas"
+  add_foreign_key 'cart_items', 'pizzas'
 end
