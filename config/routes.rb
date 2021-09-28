@@ -7,5 +7,7 @@ Rails.application.routes.draw do
       resources :cart_items, only: %i[index create update destroy]
     end
   end
+
+  get '/*path', to: redirect('/')
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
