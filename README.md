@@ -15,6 +15,8 @@
 This is the repository for the backend of the front end project Chez Sergio.
 It handles the calls to the database and the different api routes.
 
+Live Link : [https://chez-sergio.herokuapp.com/](https://chez-sergio.herokuapp.com/)
+
 ## Screenshots
 
 **API Pizza List**
