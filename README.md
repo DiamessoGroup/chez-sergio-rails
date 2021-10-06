@@ -17,6 +17,8 @@ It handles the calls to the database and the different api routes.
 
 Live Link : [https://chez-sergio.herokuapp.com/](https://chez-sergio.herokuapp.com/)
 
+Vue.js Repository: [https://github.com/DiamessoGroup/chez-sergio](https://github.com/DiamessoGroup/chez-sergio)
+
 ## Screenshots
 
 **API Pizza List**
