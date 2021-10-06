@@ -1,23 +1,53 @@
-# README
+# Chez Sergio Rails Backend Project
 
-This README would normally document whatever steps are necessary to get the application up and running.
+## Table of contents
 
-Things you may want to cover:
+- [General info](#general-info)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Test](#test)
+- [Status](#status)
+- [Contact](#contact)
 
-* Ruby version
+## General info
 
-* System dependencies
+This is the repository for the backend of the front end project Chez Sergio.
+It handles the calls to the database and the different api routes.
 
-* Configuration
+## Screenshots
 
-* Database creation
+**API Pizza List**
 
-* Database initialization
+![API Pizza List](./public/project-images/api-pizza.png)
 
-* How to run the test suite
+**API Cart Items**
 
-* Services (job queues, cache servers, search engines, etc.)
+![API Cart Items](./public/project-images/api-cart-items.png)
 
-* Deployment instructions
+## Technologies
 
-* ...
+-   Ruby
+-   Ruby on Rails 6
+
+## Setup
+
+After downloading the Git repository, follow the steps below to setup the application locally.
+
+1. Run `rails bundle`
+2. Run `npm install`
+3. To create the database, run `rails db:create`
+4. Migrate the migration files with `rails db:migrate`
+5. Seed the database with some data with `rails db:seed`
+
+## Test
+
+To run api tests, you can run `rails test`
+
+## Status
+
+Project is: _finished_ but other features could be added.
+
+## Contact
+
+Created by Krishna Diamesso. You can contact me at info@diamessoprojects.com
