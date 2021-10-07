@@ -19,6 +19,8 @@ Live Link : [https://chez-sergio.herokuapp.com/](https://chez-sergio.herokuapp.c
 
 Vue.js Repository: [https://github.com/DiamessoGroup/chez-sergio](https://github.com/DiamessoGroup/chez-sergio)
 
+[Watch Application Walkthrough on YouTube](https://youtu.be/IvhBR-m4Nrk)
+
 ## Screenshots
 
 **API Pizza List**
